@@ -2,9 +2,9 @@ import React from 'react'
 
 function RightSidebar() {
   return (
-    <div>
-      right side bar
-    </div>
+   <section>
+    Right Side bar
+   </section>
   )
 }
 
