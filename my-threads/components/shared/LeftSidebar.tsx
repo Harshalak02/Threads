@@ -26,9 +26,12 @@ const isActive=((pathname.includes(link.route) && link.route.length >1) || pathn
       <div className='mt-10 px-6'>
       <SignedIn>
   <SignOutButton signOutCallback={() => router.push('sign-in')}>
-    <div className='flex cursor-pointer'>
+    <div className='flex cursor-pointer gap-4 p-4'>
+     
       <Image src="/assets/logout.svg" alt="logout" width={24} height={24}/>
-      <p className='text-light-2 max-lg:hidden gap-4 p-4'>Logout</p>
+
+   
+      <p className='text-light-2 max-lg:hidden'>Logout</p>
 
     </div>
   </SignOutButton>

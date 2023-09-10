@@ -8,9 +8,14 @@ async  function page() {
     const userInfo= await fetchUser(user.id);
     if(!userInfo?.onboarded) redirect('/onboarding');
   return (
-    <h1 className='head-text'>
+    <>
+     <h1 className='head-text'>
         Create threads
     </h1>
+
+    <PostThread userId={userInfo._id}/>
+    </>
+   
   )
 }
 
