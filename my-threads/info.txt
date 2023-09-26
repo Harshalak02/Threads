@@ -1,0 +1,33 @@
+TOPBAR components
+*********************
+
+SignedIn in topbar will only be showen if the user is signed in.
+
+Organization Switcher Component:
+
+Functionality:
+
+The Organization Switcher is a user interface component that allows users to switch between different organizations or accounts within a single application.
+It typically appears as a dropdown or some other interactive UI element that lists the available organizations a user is associated with.
+When a user selects a different organization from the switcher, it triggers a change in the context of the application. This can mean switching to a different set of data, permissions, or configurations associated with that organization.
+Use Case:
+
+Organizations are often used in applications where different groups of users need access to the same application but have separate data or settings. For example, a project management tool might have multiple organizations, each representing a different company or team.
+The Organization Switcher allows users to navigate between these different groups or organizations without needing to log out and log back in.
+Customization:
+
+The appearance and behavior of the Organization Switcher can be customized to fit the specific design and requirements of the application. In the provided code, the appearance prop is used to customize the styling of the trigger element (the part of the switcher the user clicks on).
+Organizations:
+
+In the context of the Clerk authentication and organization management system:
+
+Organizations represent separate entities or groups within an application. Each organization can have its own users, data, settings, and permissions.
+For example, in a project management application, different organizations might correspond to different companies or teams. Each organization could have its own projects, tasks, and members.
+Organizations help maintain separation and security between different groups of users, ensuring that users from one organization cannot access the data or settings of another organization.
+In summary, the Organization Switcher component is a user interface element that allows users to switch between different organizations or groups within an application. Organizations, in this context, represent distinct entities or groups of users with their own data and settings. This is especially useful in multi-tenant applications or platforms that serve multiple groups or companies.
+
+********************
+
+To prevent distortion of the image we can use object-cover.
+
+Whever hydration error occurs is due to browser extensions, these extensions mess with our applications.
